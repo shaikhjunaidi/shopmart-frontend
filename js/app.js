@@ -1,7 +1,7 @@
 // ==============================================
 // 1. CONFIGURATION & GLOBAL VARIABLES
 // ==============================================
-const API_URL = 'http://localhost:5000/api'; // Localhost
+const API_BASE_URL = 'https://shopmart-backend-be2l.onrender.com/api'; // Localhost
 let searchProducts = [];
 let wishlistedIds = [];
 

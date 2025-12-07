@@ -153,7 +153,7 @@
             else { input.type = "password"; box.classList.remove("torch-active"); }
         }
 
-        const API_URL = 'http://localhost:5000/api';
+        const API_URL = 'https://shopmart-backend-be2l.onrender.com/api';
         async function apiFetch(endpoint, options = {}) {
             const headers = { 'Content-Type': 'application/json' };
             const config = { ...options, headers };
